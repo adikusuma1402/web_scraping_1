@@ -1,2 +1,3 @@
-print('ini buat scraping')
-print('coba lagi')
+from bs4 import BeautifulSoup
+import requests
+
