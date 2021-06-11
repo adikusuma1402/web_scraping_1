@@ -10,14 +10,7 @@ r = requests.get(url)
 
 soup = BeautifulSoup(r.text, 'lxml')
 
-# #mengambil tag header
-# header = soup.header
-# # print(header)
-#
-# #mendapatkan tag h1
-# h1 = soup.h1
-# # print(h1)
-#
+
 # #mengambil string dari tag didalam tag
 # text_1 = soup.p
 # # print(text_1.string)
